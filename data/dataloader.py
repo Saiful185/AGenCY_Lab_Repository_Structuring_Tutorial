@@ -1,3 +1,5 @@
+from pl_bolts.datamodules import CIFAR10DataModule
+
 train_transforms = torchvision.transforms.Compose(
     [
         torchvision.transforms.RandomCrop(32, padding=4),
